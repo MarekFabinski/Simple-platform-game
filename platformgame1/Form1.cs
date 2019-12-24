@@ -65,7 +65,7 @@ namespace platformgame1
             {
                 jumping = false;
             }
-            if (goleft)
+            if (goleft && player.Left > 0)
             {
                 player.Left -= 5;
             }
